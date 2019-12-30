@@ -16,6 +16,7 @@ Multiple circles can be arranged and made to rotate at different speeds and in d
 ### Epicycle Drawing
 ![epicycle-drawing](img/epicycle-drawing.gif)
 ### Plots
+#### 3D Plot of Various Angles of the Drawing
 ![3d-epicycle](img/epicycle-3d.gif)
 #### Output from Fourier Transform
 ![plot-1](img/plot-1.png)
@@ -23,7 +24,6 @@ Multiple circles can be arranged and made to rotate at different speeds and in d
 ![plot-2](img/plot-2.png)
 #### Comparison of Original Sample Points & Points from Fourier Transform
 ![plot-3](img/plot-3.png)
-
 
 ## Usage
 
@@ -57,7 +57,7 @@ If the `save_anim` option is set to 1, then make sure to allow time for the anim
   * [ ] Get sample points in order of appearance
 
 ## Ideas & Software Used
-* Python 3.6
+* Python 
 * Fourier Transforms
 
 ## Author(s)
