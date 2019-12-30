@@ -49,8 +49,8 @@ To run the program again, use the `Restart and Clear Output` option.
 If the `save_anim` option is set to 1, then make sure to allow time for the animation to be saved, before running any other cells.
 
 ## To-Do
-[] Generate epicycles for pre-existing image
-  [] Get sample points in order of appearance
+* [ ] Generate epicycles for pre-existing image
+  * [ ] Get sample points in order of appearance
 
 ## Ideas & Software Used
 * Python 3.6
