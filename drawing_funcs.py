@@ -1,4 +1,5 @@
 import math
+import matplotlib.pyplot as plt
 
 def pos_at(time, abs_fft, phase_fft):
 
@@ -16,3 +17,12 @@ def pos_at(time, abs_fft, phase_fft):
         circlePos += [(loc_x, loc_y)]
 
     return circlePos
+
+def get_initVals(n_circles, abs_fft, phase_fft):
+    
+    circles = []
+    initCirclesPos = pos_at(0, abs_fft, phase_fft)
+    for i in range(n_circles):
+        circles += [plt.Circle(initCirclesPos[i], abs_fft[i], fill=False)]
+
+    return circles
