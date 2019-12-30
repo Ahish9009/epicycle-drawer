@@ -36,15 +36,15 @@ Activate it using
 ```shell
   source newvenv/bin/activate
 ```
-Install the required packages using 
-```
+Install the necessary packages with
+```shell
   pip install -r requirements.txt
 ```
-
+Run the notebook with ```shell jupyter notebook```.
 
 ## Ideas & Software Used
 * Python 3.6
 * Fourier Transforms
 
-## Authors
+## Author(s)
 [Ahish Deshpande](https://github.com/Ahish9009)
