@@ -23,7 +23,11 @@ Multiple circles can be arranged and made to rotate at different speeds and in d
 
 
 ## Usage
-
+It is recommended to run this project in a virtual environment.
+```shell
+  pip3.6 install virtualenv
+  virtualenv activate newvenv
+```
 
 ## Ideas & Software Used
 * Python 3.6
