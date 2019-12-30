@@ -40,9 +40,11 @@ Install the necessary packages with
 ```shell
   pip install -r requirements.txt
 ```
-Run the notebook with ```jupyter notebook```.
-The settings cell can be changed as required.
-If the `save_animations` option is set to 1, then make sure to allow time for the animation to be saved, before running any other cells.
+Run the notebook with ```jupyter notebook``` <br>
+The settings cell can be changed as required. <br>
+You can either run the cells manually(use `Shift+Enter` to run a cell and move to the next one) or use the 'Run All Cells' option. <br>
+
+If the `save_anim` option is set to 1, then make sure to allow time for the animation to be saved, before running any other cells.
 
 ## Ideas & Software Used
 * Python 3.6
