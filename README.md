@@ -45,8 +45,12 @@ The settings cell can be changed as required. <br>
 You can either run the cells manually(use `Shift+Enter` to run a cell and move to the next one) or use the 'Run All Cells' option. <br>
 To run the program again, use the `Restart and Clear Output` option.
 
-#### NOTE
+###### NOTE
 If the `save_anim` option is set to 1, then make sure to allow time for the animation to be saved, before running any other cells.
+
+## To-Do
+[] Generate epicycles for pre-existing image
+  [] Get sample points in order of appearance
 
 ## Ideas & Software Used
 * Python 3.6
