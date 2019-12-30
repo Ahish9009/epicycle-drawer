@@ -23,12 +23,24 @@ Multiple circles can be arranged and made to rotate at different speeds and in d
 
 
 ## Usage
+
+Clone this repo into a local directory.
+
 It is recommended to run this project in a virtual environment, running Python 3(preferably Python 3.6).
+Install and create the environment using
 ```shell
   pip3.6 install virtualenv
   virtualenv -p python3.6 newvenv
+```
+Activate it using
+```shell
   source newvenv/bin/activate
 ```
+Install the required packages using 
+```
+  pip install -r requirements.txt
+```
+
 
 ## Ideas & Software Used
 * Python 3.6
