@@ -32,7 +32,7 @@ Clone this repo into a local directory.
 It is recommended to run this project in a virtual environment, running Python 3(preferably Python 3.6).
 Install and create the environment using
 ```shell
-  pip3.6 install virtualenv
+  pip install virtualenv
   virtualenv -p python3.6 newvenv
 ```
 Activate it using
