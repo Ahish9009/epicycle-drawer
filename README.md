@@ -52,6 +52,7 @@ To run the program again, use the `Restart and Clear Output` option.
 If the `save_anim` option is set to 1, then make sure to allow time for the animation to be saved, before running any other cells.
 
 ## To-Do
+* [ ] Allow user to trace from a bg image(probably with some point assistance)
 * [ ] Generate epicycles for pre-existing image
   * [x] Load image and get contours
   * [ ] Get sample points in order of appearance
