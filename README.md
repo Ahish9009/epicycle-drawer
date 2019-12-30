@@ -30,7 +30,7 @@ It is recommended to run this project in a virtual environment, running Python 3
 Install and create the environment using
 ```shell
   pip3.6 install virtualenv
-  virtualenv -p python3.6 newvenv
+  virtualenv -p $(which python3.6) newvenv
 ```
 Activate it using
 ```shell
@@ -43,7 +43,9 @@ Install the necessary packages with
 Run the notebook with ```jupyter notebook``` <br>
 The settings cell can be changed as required. <br>
 You can either run the cells manually(use `Shift+Enter` to run a cell and move to the next one) or use the 'Run All Cells' option. <br>
+To run the program again, use the `Restart and Clear Output` option.
 
+#### NOTE
 If the `save_anim` option is set to 1, then make sure to allow time for the animation to be saved, before running any other cells.
 
 ## Ideas & Software Used
