@@ -10,7 +10,14 @@ An epicycle is a circle, with a small radius, whose center revolves on the circu
 Multiple circles can be arranged and made to rotate at different speeds and in different phases. The path of a point on the last such circle can be traced, to create a drawing. The aim of this project is to take a desired drawing as input, and arrange circles in such a way that the path of a point on the last circle results in the desired drawing.
 
 ## Example
+
+#### Input
 ![drawing-input](img/drawing-input.gif)
+#### Epicycle Drawing
+![epicycle-drawing](img/epicycle-drawing.gif)
+#### Plots
+![3d-epicycle](img/epicycle-3d.gif)
+
 
 ## Usage
 
