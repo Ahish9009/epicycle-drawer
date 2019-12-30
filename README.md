@@ -11,12 +11,15 @@ Multiple circles can be arranged and made to rotate at different speeds and in d
 
 ## Example
 
-#### Input
+### Input
 ![drawing-input](img/drawing-input.gif)
-#### Epicycle Drawing
+### Epicycle Drawing
 ![epicycle-drawing](img/epicycle-drawing.gif)
-#### Plots
+### Plots
 ![3d-epicycle](img/epicycle-3d.gif)
+![plot-1](img/plot-1.png)
+![plot-2](img/plot-2.png)
+![plot-3](img/plot-3.png)
 
 
 ## Usage
