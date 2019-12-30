@@ -46,6 +46,7 @@ Install the necessary packages with
 Run the notebook with ```jupyter notebook``` <br>
 The settings cell can be changed as required. <br>
 You can either run the cells manually(use `Shift+Enter` to run a cell and move to the next one) or use the 'Run All Cells' option. <br>
+When the drawing board appears, draw your figure(preferably a continuous figure/shape, which while can be drawn with multiple strokes, should be possible to draw without lifting a pen. This ensures best results, however, the drawer works otherwise too(but is forced to add extra lines in regions where the pen would be lifted). <br>
 To run the program again, use the `Restart and Clear Output` option.
 
 ###### NOTE
