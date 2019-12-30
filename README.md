@@ -43,11 +43,12 @@ Install the necessary packages with
 ```shell
   pip install -r requirements.txt
 ```
-Run the notebook with ```jupyter notebook``` <br>
-The settings cell can be changed as required. <br>
-You can either run the cells manually(use `Shift+Enter` to run a cell and move to the next one) or use the 'Run All Cells' option. <br>
-When the drawing board appears, draw your figure(preferably a continuous figure/shape, which while can be drawn with multiple strokes, should be possible to draw without lifting a pen. This ensures best results, however, the drawer works otherwise too(but is forced to add extra lines in regions where the pen would be lifted). <br>
-To run the program again, use the `Restart and Clear Output` option.
+* Run the notebook with ```jupyter notebook``` <br>
+* The settings cell can be changed as required. <br>
+* You can either run the cells manually(use `Shift+Enter` to run a cell and move to the next one) or use the 'Run All Cells' option. <br>
+* When the drawing board appears, draw your figure(preferably a continuous figure/shape, which while can be drawn with multiple strokes, should be possible to draw without lifting a pen. This ensures best results, however, the drawer works otherwise too(but is forced to add extra lines in regions where the pen would be lifted). <br>
+* Close the drawing board window when you are done drawing and continue executing the following cells
+* To run the program again, use the `Restart and Clear Output` option.
 
 ###### NOTE
 If the `save_anim` option is set to 1, then make sure to allow time for the animation to be saved, before running any other cells.
