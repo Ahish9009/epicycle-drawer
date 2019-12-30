@@ -33,7 +33,7 @@ It is recommended to run this project in a virtual environment, running Python 3
 Install and create the environment using
 ```shell
   pip3.6 install virtualenv
-  virtualenv -p $(which python3.6) newvenv
+  virtualenv -p python3.6 newvenv
 ```
 Activate it using
 ```shell
