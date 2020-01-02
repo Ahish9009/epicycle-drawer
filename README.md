@@ -12,8 +12,10 @@ Multiple circles can be arranged and made to rotate at different speeds and in d
 ## Example
 
 ### Input
+* The input image is drawn into the drawing board
 ![drawing-input](img/drawing-input.gif)
 ### Epicycle Drawing
+* Epicycles are generated to draw the input drawing
 ![epicycle-drawing](img/epicycle-drawing.gif)
 ### Plots
 #### 3D Plot of Various Angles of the Drawing
