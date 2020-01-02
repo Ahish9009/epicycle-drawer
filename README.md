@@ -13,13 +13,13 @@ Multiple circles can be arranged and made to rotate at different speeds and in d
 
 ### Input
 * The input image is drawn into the drawing board <br>
-![drawing-input](img/drawing-input.gif)
+  ![drawing-input](img/drawing-input.gif)
 ### Epicycle Drawing
 * Epicycles are generated to draw the input drawing <br>
 ![epicycle-drawing](img/epicycle-drawing.gif)
 ### Plots
 #### 3D Plot of Various Angles of the Drawing
-The transform output seen in 3D <br>
+* The transform output seen in 3D <br>
 ![3d-epicycle](img/epicycle-3d.gif)
 #### Output from Fourier Transform
 ![plot-1](img/plot-1.png)
