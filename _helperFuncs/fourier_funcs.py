@@ -1,5 +1,4 @@
 import numpy as np
-import math
 
 def inv(points_fft, N):
     #inverse fourier array
@@ -8,6 +7,6 @@ def inv(points_fft, N):
     for tau in range(N):
         for k in range(len(points_fft)):
             # inverse fourier transform
-            generated_function[tau] += points_fft[k]*(math.e**(1j*2*math.pi*k*tau/N))
+            generated_function[tau] += points_fft[k]*(np.e**(1j*2*np.pi*k*tau/N))
 
     return np.divide(generated_function, N)

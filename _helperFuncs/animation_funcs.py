@@ -1,4 +1,3 @@
-import math
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -8,12 +7,12 @@ def pos_at(time, abs_fft, phase_fft):
     circle_pos = [(0,0)]
     loc_x = 0
     loc_y = 0
-    w = 2*math.pi/N
+    w = 2*np.pi/N
     
     for i in range(N):
 
-        loc_x += abs_fft[i]*math.cos((i)*w*time + phase_fft[i])
-        loc_y += abs_fft[i]*math.sin((i)*w*time + phase_fft[i])
+        loc_x += abs_fft[i]*np.cos((i)*w*time + phase_fft[i])
+        loc_y += abs_fft[i]*np.sin((i)*w*time + phase_fft[i])
 
         circle_pos += [(loc_x, loc_y)]
 
