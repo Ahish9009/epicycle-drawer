@@ -1,5 +1,6 @@
 import math
 import matplotlib.pyplot as plt
+import numpy as np
 
 def pos_at(time, abs_fft, phase_fft):
 
@@ -26,3 +27,11 @@ def get_init_vals(n_circles, abs_fft, phase_fft):
         circles += [plt.Circle(initCirclesPos[i], abs_fft[i], fill=False)]
 
     return circles
+
+def get_circle(r, centerPos):
+    n_points = int(r)+200
+    theta = np.linspace(0, 2*np.pi, n_points)
+    y = r*np.cos(theta) + centerPos[0]
+    z = r*np.sin(theta) + centerPos[1]
+
+    return y, z
