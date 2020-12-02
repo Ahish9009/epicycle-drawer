@@ -1,4 +1,5 @@
 # Epicycle Drawer
+![epicycle-drawing](img/epicycle-drawing.gif)
 
 ## Introduction
 This is a tool that takes in a drawing as input from the user and draws it using epicycles.
